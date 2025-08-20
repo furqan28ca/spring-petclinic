@@ -18,7 +18,7 @@ spec:
         - name: acr-secret  # Ensure this matches your Kubernetes secret name for ACR
       containers:
       - name: luckywebapp
-        image: luckyregistry.azurecr.io/my-app-image:latest
+        image: luckyregistryy.azurecr.io/my-app-image:latest
         ports:
         - containerPort: 8080  # FIXED: Match internal app port
 
